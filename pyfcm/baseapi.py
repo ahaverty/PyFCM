@@ -118,6 +118,7 @@ class BaseAPI(object):
             fcm_payload['priority'] = self.FCM_LOW_PRIORITY
         else:
             fcm_payload['priority'] = self.FCM_HIGH_PRIORITY
+            fcm_payload['sound'] = 'default'
 
         if delay_while_idle:
             fcm_payload['delay_while_idle'] = delay_while_idle
