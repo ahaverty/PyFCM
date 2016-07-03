@@ -14,7 +14,7 @@ For more information, visit: https://firebase.google.com/docs/cloud-messaging/
 Links
 =====
 
-- Project: https://github.com/olucurious/pyfcm
+- Project: https://github.com/ahaverty/pyfcm
 - PyPi: https://pypi.python.org/pypi/pyfcm/
 
 
@@ -30,7 +30,7 @@ Install using pip:
 
     OR
 
-    pip install git+git://github.com/olucurious/PyFCM.git
+    pip install git+git://github.com/ahaverty/PyFCM.git
 
 PyFCM supports Android and iOS.
 
