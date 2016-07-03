@@ -87,6 +87,7 @@ class BaseAPI(object):
                       message_body=None,
                       message_title=None,
                       message_icon=None,
+                      message_sound=None,
                       condition=None,
                       collapse_key=None,
                       delay_while_idle=False,
@@ -137,7 +138,8 @@ class BaseAPI(object):
             fcm_payload['notification'] = {
                 'body': message_body,
                 'title': message_title,
-                'icon': message_icon
+                'icon': message_icon,
+                'sound': message_sound
             }
         else:
             # This is needed for iOS when we are sending only custom data messages
